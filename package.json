@@ -1,0 +1,69 @@
+{
+  "name": "pokefusion",
+  "version": "1.0.0",
+  "description": "Fork of aegide's Fusion Calculator, but with a nicer UI, and strictly focused on viewing fusion sprites",
+  "main": "src/index.tsx",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "clean": "./scripts/clean.sh",
+    "format": "./scripts/format.sh",
+    "format-validate": "npm run format -- list-different",
+    "lint": "npx eslint . -c .eslintrc.js",
+    "ts-validate": "tsc --project tsconfig.json --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/StuxieDev/pokefusion.git"
+  },
+  "keywords": [
+    "pokemon",
+    "fusion",
+    "infinite",
+    "calculator",
+    "playground"
+  ],
+  "author": "StuxieDev",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/StuixeDev/pokefusion/issues"
+  },
+  "homepage": "https://github.com/StuxieDev/pokefusion#readme",
+  "dependencies": {
+    "@emotion/react": "11.10.6",
+    "@emotion/styled": "11.10.6",
+    "@mui/icons-material": "5.11.11",
+    "@mui/material": "5.11.11",
+    "immutable": "4.3.0",
+    "pokeapi-js-wrapper": "1.2.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-router-dom": "6.8.2",
+    "react-window": "1.8.8"
+  },
+  "devDependencies": {
+    "@types/react": "18.0.27",
+    "@types/react-dom": "18.0.10",
+    "@types/react-window": "1.8.5",
+    "@typescript-eslint/eslint-plugin": "5.49.0",
+    "@typescript-eslint/parser": "5.49.0",
+    "@vitejs/plugin-basic-ssl": "1.0.1",
+    "@vitejs/plugin-react": "^3.1.0",
+    "eslint": "8.32.0",
+    "eslint-config-react-app": "7.0.1",
+    "eslint-import-resolver-typescript": "3.5.3",
+    "eslint-plugin-import": "2.27.5",
+    "prettier": "2.8.3",
+    "typescript": "4.9.4",
+    "vite": "4.1.1",
+    "vite-plugin-mkcert": "1.12.0",
+    "vite-plugin-singlefile": "0.13.3",
+    "vite-plugin-svgr": "2.4.0",
+    "vite-tsconfig-paths": "4.0.5"
+  },
+  "prettier": {
+    "proseWrap": "always",
+    "arrowParens": "avoid"
+  }
+}
