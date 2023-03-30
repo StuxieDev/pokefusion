@@ -1,6 +1,6 @@
 {
   "name": "pokefusion",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fork of aegide's Fusion Calculator, but with a nicer UI, and strictly focused on viewing fusion sprites",
   "main": "src/index.tsx",
   "scripts": {
