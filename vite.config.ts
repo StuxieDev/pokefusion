@@ -32,7 +32,7 @@ export default defineConfig(config => {
       port: 3000,
     },
     assetsInclude: ["public/**/*"],
-    base: "/pokefusion",
+    base: "/",
   };
 });
 
