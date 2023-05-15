@@ -40,7 +40,7 @@ export const PokemonFusionTypesDisplay: React.FC<{
       {types.map(t => (
         <TypeImg
           key={t}
-          src={`${import.meta.env.DEV ? "" : "/pokefusion/"}types/${t}.png`}
+          src={`${import.meta.env.DEV ? "" : "/"}types/${t}.png`}
           alt={t}
         />
       ))}
