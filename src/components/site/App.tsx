@@ -2,6 +2,8 @@ import styled from "@emotion/styled";
 
 import { IntroModal } from "~/components";
 import { AppRouter } from "./AppRouter";
+import { DevBanner } from "./DevBanner";
+import { DiscontinuedBanner } from "./DiscontinuedBanner";
 import { Footer } from "./Footer";
 import { Header } from "./Header";
 
@@ -34,6 +36,8 @@ export const App: React.FC = () => (
     <CssBaseline />
     <Box display="flex" flexDirection="column" minHeight="100vh">
       <SiteContainer flexGrow={1}>
+        <DevBanner />
+        <DiscontinuedBanner />
         <Header />
         <Body>
           <AppRouter />

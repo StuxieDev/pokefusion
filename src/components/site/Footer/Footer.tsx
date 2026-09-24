@@ -1,5 +1,7 @@
+import { Link as RouterLink } from "react-router-dom";
+
 import { SpacedGrid } from "~/components";
-import { useModalToggle } from "~/utils";
+import { copyrightYears, useModalToggle } from "~/utils";
 import { AboutModal } from "./AboutModal";
 
 import Button from "@mui/material/Button";
@@ -62,6 +64,14 @@ export const Footer: React.FC = () => {
       >
         Report an Issue
       </Button>
+      <Typography color="textSecondary">|</Typography>
+      <Button sx={buttonLinkProps.sx} component={RouterLink} to="/legal">
+        Boring Legal Stuff
+      </Button>
+      <Typography color="textSecondary">|</Typography>
+      <Typography color="textSecondary" variant="button">
+        &copy; {copyrightYears()} StuxieDev
+      </Typography>
     </SpacedGrid>
   );
 };

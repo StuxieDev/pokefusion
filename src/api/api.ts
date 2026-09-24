@@ -1,4 +1,3 @@
-// @ts-expect-error: no ts support reeeeeeee
 import { Pokedex } from "pokeapi-js-wrapper";
 
 import { comparator, createDisplayableError } from "~/utils";

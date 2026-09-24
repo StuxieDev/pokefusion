@@ -96,6 +96,7 @@ module.exports = {
     "**/*.html",
     "**/*.min.js",
     "**/vite.config.ts",
+    "dev-server.js",
   ],
   settings: {
     "import/parsers": {
